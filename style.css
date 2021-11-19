@@ -1,3 +1,22 @@
-h1{
-  color: red;
+.header{
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.item{
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body{
+  margin: 0;
+}
+
+#links{
+  display: flex;
+  gap: 20px;
 }
