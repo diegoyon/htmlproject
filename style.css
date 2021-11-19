@@ -1,14 +1,67 @@
-.header{
+*{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header, .title{
   display: flex;
   background-color: #1f2937;
   color: white;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+h1,h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h4{
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 800;
+}
+
+.information{
+  display: flex;
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
+
+.title{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img{
+  height: auto;
+  width: 300px;
+}
+
+h1{
+  font-size: 36px;
+  color: #f9faf8;
+}
+
+h2{
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+#subtext{
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .item{
   flex: 1;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+#image{
+  display: flex;
   align-items: center;
 }
 
@@ -19,4 +72,38 @@ body{
 #links{
   display: flex;
   gap: 20px;
+}
+
+.button{
+  color: white;
+  background-color: #3882f6;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.information{
+  display: flex;
+  /* gap: 50px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.picmastext{
+
+  margin: 30px;
+  align-items: center;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.square{
+  height: 150px;
+  width: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 12px;
+  flex-shrink: 0;
+  margin: 0px;
+  
 }
